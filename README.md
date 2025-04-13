@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
 
-## Project info
+# Mark-It-Easy: Markdown Guide Chrome Extension
 
-**URL**: https://lovable.dev/projects/7b695ad4-6ce1-40a8-9b4e-c5a695d42a14
+A simple Chrome extension that provides quick reference to Markdown syntax.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Clean, tabbed interface for different Markdown elements
+- Side-by-side preview of Markdown syntax and rendered output
+- Copy-to-clipboard functionality for all examples
+- Comprehensive coverage of Markdown features:
+  - Headings
+  - Text formatting (bold, italic, strikethrough)
+  - Lists (ordered, unordered, nested)
+  - Links and images
+  - Code (inline and blocks)
+  - Tables
+  - Blockquotes
+  - Horizontal rules
 
-**Use Lovable**
+## Installation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7b695ad4-6ce1-40a8-9b4e-c5a695d42a14) and start prompting.
+1. Clone this repository
+2. Run `npm install` to install dependencies
+3. Run `npm run build` to build the extension
+4. Open Chrome and navigate to `chrome://extensions/`
+5. Enable "Developer mode" (toggle in the top right)
+6. Click "Load unpacked" and select the `dist` directory from this project
 
-Changes made via Lovable will be committed automatically to this repo.
+## Development
 
-**Use your preferred IDE**
+- Run `npm run dev` to start the development server
+- Make changes to the code and see them reflected in real-time
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Building for Production
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Run `npm run build` to create a production build in the `dist` directory
+- The contents of this directory can be loaded as an unpacked extension or packaged for distribution
 
-Follow these steps:
+## Credits
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7b695ad4-6ce1-40a8-9b4e-c5a695d42a14) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Based on Typora's Markdown reference guide: https://support.typora.io/Markdown-Reference/
